@@ -3,7 +3,7 @@ package holm.springframework.holmpetclinic.model;
 /**
  * @author Denis_Kholmogorov
  */
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 

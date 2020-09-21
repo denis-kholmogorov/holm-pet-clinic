@@ -5,7 +5,7 @@ package holm.springframework.holmpetclinic.model;
  *
  * @author Denis_Kholmogorov
  */
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
